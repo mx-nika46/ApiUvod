@@ -43,3 +43,4 @@ for d in države:
 baseUrl="https://meowfacts.herokuapp.com/"
 klic= requests.get(baseUrl).json()
 print(klic.get("data"))
+
